@@ -4,10 +4,14 @@ import { useState } from 'react'
 import {
   ArrowDown,
   ArrowUpRight,
+  BookOpen,
   HeartHandshake,
   Menu,
+  Megaphone,
   Play,
+  ShieldCheck,
   Sparkles,
+  UsersRound,
   X,
 } from 'lucide-react'
 
@@ -52,13 +56,9 @@ export default function Page() {
             <button className="play-link" onClick={() => setVideoOpen(true)}><span className="play-icon"><Play size={14} fill="currentColor" /></span> Ver nuestro documental</button>
           </div>
         </div>
-        <div className="hero-art" aria-label="Ilustración abstracta de cuidado y comunidad" role="img">
-          <div className="art-sun" />
-          <div className="art-ring ring-back" />
-          <div className="art-ring ring-front" />
-          <div className="art-label label-top">cuidar<br /><strong>también</strong></div>
-          <div className="art-label label-bottom">es<br /><strong>acompañar</strong></div>
-          <div className="art-flower flower-a">✳</div><div className="art-flower flower-b">✦</div>
+        <div className="hero-art hero-photo" aria-label="Tres estudiantes abrazadas y unidas en el patio escolar" role="img">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7XyAE18StPLHGHHcPAoRXVQrdlGLcK.png" alt="Tres estudiantes abrazadas de espaldas, unidas frente a un jardín" />
+          <div className="photo-badge"><HeartHandshake /> <span>Cuidarnos<br /><strong>es estar juntas</strong></span></div>
         </div>
         <div className="scroll-note"><span className="scroll-line" /> Desliza para descubrir</div>
       </section>
@@ -69,13 +69,13 @@ export default function Page() {
           <div><h2>¿Qué pasa cuando una iniciativa importante <span>no tiene suficiente visibilidad?</span></h2></div>
           <div className="story-text"><p>En nuestra institución existen proyectos que realizan actividades importantes para el bienestar de las estudiantes, pero que no siempre son conocidos por toda la comunidad.</p><p>Por eso, decidimos trabajar en una estrategia de comunicación que le diera mayor visibilidad a <strong>Guardianas de la Vida.</strong></p></div>
         </div>
-        <div className="values-row"><div><b>01</b><span>cuidar</span></div><div><b>02</b><span>escuchar</span></div><div><b>03</b><span>acompañar</span></div></div>
+        <div className="values-row"><div><b><ShieldCheck /></b><span>cuidar</span></div><div><b><UsersRound /></b><span>escuchar</span></div><div><b><BookOpen /></b><span>acompañar</span></div></div>
       </section>
 
       <section id="estrategias" className="initiative-section section-pad">
         <div className="section-kicker light">02 / La iniciativa</div>
         <div className="initiative-heading"><h2>Una red que<br /><i>se hace visible.</i></h2><p>Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p></div>
-        <div className="strategy-cards"><article><span>01</span><Sparkles /><h3>Sensibilizar</h3><p>Abrir conversaciones que nos acerquen y nos permitan mirar al otro con empatía.</p></article><article><span>02</span><HeartHandshake /><h3>Acompañar</h3><p>Construir espacios seguros donde cada voz pueda ser escuchada.</p></article><article><span>03</span><ArrowUpRight /><h3>Comunicar</h3><p>Llevar el mensaje de cuidado más lejos, a través de historias que conectan.</p></article></div>
+        <div className="strategy-cards"><article><span>01</span><Sparkles /><h3>Sensibilizar</h3><p>Abrir conversaciones que nos acerquen y nos permitan mirar al otro con empatía.</p></article><article><span>02</span><HeartHandshake /><h3>Acompañar</h3><p>Construir espacios seguros donde cada voz pueda ser escuchada.</p></article><article><span>03</span><Megaphone /><h3>Comunicar</h3><p>Llevar el mensaje de cuidado más lejos, a través de historias que conectan.</p></article></div>
       </section>
 
       <section id="evidencias" className="evidence-section section-pad">
