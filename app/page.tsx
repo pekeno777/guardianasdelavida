@@ -4,14 +4,11 @@ import { useState } from 'react'
 import {
   ArrowDown,
   ArrowUpRight,
-  BookOpen,
   HeartHandshake,
   Menu,
   Megaphone,
   Play,
-  ShieldCheck,
   Sparkles,
-  UsersRound,
   X,
 } from 'lucide-react'
 
@@ -60,33 +57,27 @@ export default function Page() {
           <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7XyAE18StPLHGHHcPAoRXVQrdlGLcK.png" alt="Tres estudiantes abrazadas de espaldas, unidas frente a un jardín" />
           <div className="photo-badge"><HeartHandshake /> <span>Cuidarnos<br /><strong>es estar juntas</strong></span></div>
         </div>
-        <div className="scroll-note"><span className="scroll-line" /> Desliza para descubrir</div>
       </section>
 
       <section id="proyecto" className="story-section section-pad">
-        <div className="section-kicker">01 / El punto de partida</div>
         <div className="story-grid">
-          <div><h2>¿Qué pasa cuando una iniciativa importante <span>no tiene suficiente visibilidad?</span></h2></div>
+          <div className="story-title"><h2>¿Qué pasa cuando una iniciativa importante <span>no tiene suficiente visibilidad?</span></h2></div>
           <div className="story-text"><p>En nuestra institución existen proyectos que realizan actividades importantes para el bienestar de las estudiantes, pero que no siempre son conocidos por toda la comunidad.</p><p>Por eso, decidimos trabajar en una estrategia de comunicación que le diera mayor visibilidad a <strong>Guardianas de la Vida.</strong></p></div>
         </div>
-        <div className="values-row"><div><b><ShieldCheck /></b><span>cuidar</span></div><div><b><UsersRound /></b><span>escuchar</span></div><div><b><BookOpen /></b><span>acompañar</span></div></div>
       </section>
 
       <section id="estrategias" className="initiative-section section-pad">
-        <div className="section-kicker light">02 / La iniciativa</div>
-        <div className="initiative-heading"><h2>Una red que<br /><i>se hace visible.</i></h2><p>Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p></div>
-        <div className="strategy-cards"><article><span>01</span><Sparkles /><h3>Sensibilizar</h3><p>Abrir conversaciones que nos acerquen y nos permitan mirar al otro con empatía.</p></article><article><span>02</span><HeartHandshake /><h3>Acompañar</h3><p>Construir espacios seguros donde cada voz pueda ser escuchada.</p></article><article><span>03</span><Megaphone /><h3>Comunicar</h3><p>Llevar el mensaje de cuidado más lejos, a través de historias que conectan.</p></article></div>
+        <div className="initiative-heading"><div><h2>Guardianas de<br /><i>la vida</i></h2></div><p>Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p><img className="initiative-emblem" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Inicio-removebg-preview-73jbE1b5UUZUTLCEWxM5Yc1s0dDDxt.png" alt="Escudo con una flor sostenido por dos manos, símbolo de protección y crecimiento" /></div>
+        <div className="strategy-cards"><article><div className="card-top"><span>01</span><Sparkles /></div><div className="strategy-image image-sensibilizar"><Sparkles /></div><h3>Cuidar</h3><p>Proteger nuestro bienestar</p></article><article><div className="card-top"><span>02</span><HeartHandshake /></div><div className="strategy-image image-acompanar"><HeartHandshake /></div><h3>Escuchar</h3><p>Dar espacio a cada voz</p></article><article><div className="card-top"><span>03</span><Megaphone /></div><div className="strategy-image image-comunicar"><Megaphone /></div><h3>Acompañar</h3><p>Estar presentes siempre</p></article></div>
       </section>
 
       <section id="evidencias" className="evidence-section section-pad">
-        <div className="section-kicker">03 / Campaña 360</div>
         <div className="evidence-heading"><h2>Comunicar<br /><span>también es cuidar.</span></h2><p>Creamos una estrategia de comunicación integral utilizando herramientas digitales, contenido audiovisual y material gráfico para llegar a más estudiantes y fortalecer el mensaje de cuidado y apoyo.</p></div>
-        <div className="evidence-grid"><div className="evidence-card card-purple"><div className="card-number">01</div><h3>Contenido<br /><em>digital</em></h3><span className="card-arrow">↗</span></div><div className="evidence-card card-yellow"><div className="card-number">02</div><h3>Material<br /><em>gráfico</em></h3><span className="card-arrow">↗</span></div><div className="evidence-card card-pink"><div className="card-number">03</div><h3>Voces que<br /><em>inspiran</em></h3><span className="card-arrow">↗</span></div></div>
       </section>
 
-      <section id="documental" className="documentary section-pad"><div className="doc-scribble">MIRA<br />Y ESCUCHA</div><div><div className="section-kicker light">04 / Nuestro documental</div><h2>Historias que<br /><i>dejan huella.</i></h2><p>Este documental muestra el proceso, las actividades y voces de quienes hacen parte de Guardianas de la Vida.</p><button className="documentary-button" onClick={() => setVideoOpen(true)}><span><Play size={16} fill="currentColor" /></span> Ver documental</button></div><div className="doc-sticker">PLAY<br /><small>▶</small></div></section>
+      <section id="documental" className="documentary section-pad"><div><div className="section-kicker light">04 / Nuestro documental</div><h2>Historias que<br /><i>dejan huella.</i></h2><p>Este documental muestra el proceso, las actividades y voces de quienes hacen parte de Guardianas de la Vida.</p><button className="documentary-button" onClick={() => setVideoOpen(true)}><span><Play size={16} fill="currentColor" /></span> Ver documental</button></div></section>
 
-      <footer className="site-footer section-pad"><div className="footer-brand"><span className="brand-mark"><HeartHandshake size={18} /></span><strong>Guardianas<br />de la Vida</strong></div><div><p>Proyecto SENA · Campaña 360</p><p className="muted">Una iniciativa para cuidar nuestra comunidad.</p></div><div className="footer-team"><p>Integrantes</p><span>{team.join(' · ')}</span></div><span className="footer-year">2024 ↗</span></footer>
+      <footer className="site-footer section-pad"><div className="footer-brand"><span className="brand-mark"><HeartHandshake size={18} /></span><strong>Guardianas<br />de la Vida</strong></div><div><p>Proyecto SENA · Campaña 360</p><p className="muted">Una iniciativa para cuidar nuestra comunidad.</p></div><div className="footer-team"><p>Integrantes</p><span>{team.join(' · ')}</span></div></footer>
 
       {videoOpen && <div className="modal-backdrop" role="dialog" aria-modal="true" aria-label="Documental Guardianas de la Vida" onClick={() => setVideoOpen(false)}><div className="video-modal" onClick={(event) => event.stopPropagation()}><button className="modal-close" onClick={() => setVideoOpen(false)} aria-label="Cerrar documental"><X /></button><div className="video-placeholder"><Play size={35} fill="currentColor" /><p>El documental de Guardianas de la Vida</p><small>Contenido audiovisual próximamente</small></div></div></div>}
     </main>
