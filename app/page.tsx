@@ -40,6 +40,7 @@ export default function Page() {
         </button>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Navegación principal">
           {sections.map((section) => <a key={section.id} href={`#${section.id}`} onClick={() => setMenuOpen(false)}>{section.label}</a>)}
+          <a className="nav-cta" href="#documental" onClick={() => setMenuOpen(false)}>Ver documental <ArrowUpRight size={15} /></a>
         </nav>
       </header>
 
