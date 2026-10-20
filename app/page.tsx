@@ -66,10 +66,10 @@ export default function Page() {
       <section id="proyecto" className="story-section section-pad">
         <div className="section-kicker">01 / El punto de partida</div>
         <div className="story-grid">
-          <div><h2>¿Qué pasa cuando una iniciativa importante <span>no tiene suficiente visibilidad?</span></h2></div>
+          <div className="story-title"><h2>¿Qué pasa cuando una iniciativa importante <span>no tiene suficiente visibilidad?</span></h2></div>
           <div className="story-text"><p>En nuestra institución existen proyectos que realizan actividades importantes para el bienestar de las estudiantes, pero que no siempre son conocidos por toda la comunidad.</p><p>Por eso, decidimos trabajar en una estrategia de comunicación que le diera mayor visibilidad a <strong>Guardianas de la Vida.</strong></p></div>
         </div>
-        <div className="values-row"><div><b><ShieldCheck /></b><span>cuidar</span></div><div><b><UsersRound /></b><span>escuchar</span></div><div><b><BookOpen /></b><span>acompañar</span></div></div>
+        <div className="values-row" aria-label="Valores de Guardianas de la Vida"><div><b><ShieldCheck /></b><span>Cuidar</span><small>Proteger nuestro bienestar</small></div><div><b><UsersRound /></b><span>Escuchar</span><small>Dar espacio a cada voz</small></div><div><b><BookOpen /></b><span>Acompañar</span><small>Estar presentes siempre</small></div></div>
       </section>
 
       <section id="estrategias" className="initiative-section section-pad">
