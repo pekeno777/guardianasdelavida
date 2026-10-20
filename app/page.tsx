@@ -48,16 +48,15 @@ export default function Page() {
         <div className="hero-orb orb-two" />
         <div className="hero-copy">
           <p className="eyebrow"><span /> Campaña 360 · SENA</p>
-          <h1>Tu próxima gran <em>curiosidad</em> empieza aquí.</h1>
-          <p className="hero-lede">Una iniciativa para cuidar, escuchar y acompañar a nuestra comunidad educativa.</p>
+          <h1>Guardianas de<br /><em>la vida</em></h1>
+          <p className="hero-lede">Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p>
           <div className="hero-actions">
             <a className="primary-button" href="#proyecto">Conoce el proyecto <ArrowDown size={17} /></a>
             <button className="play-link" onClick={() => setVideoOpen(true)}><span className="play-icon"><Play size={14} fill="currentColor" /></span> Ver nuestro documental</button>
           </div>
         </div>
-        <div className="hero-art hero-photo" aria-label="Tres estudiantes abrazadas y unidas en el patio escolar" role="img">
-          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7XyAE18StPLHGHHcPAoRXVQrdlGLcK.png" alt="Tres estudiantes abrazadas de espaldas, unidas frente a un jardín" />
-          <div className="photo-badge"><HeartHandshake /> <span>Cuidarnos<br /><strong>es estar juntas</strong></span></div>
+        <div className="hero-art hero-emblem" aria-label="Emblema de Guardianas de la Vida con una flor protegida por dos manos" role="img">
+          <div className="emblem-circle"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Inicio-removebg-preview-mWsWaPPfTuuCg5fMYH7WjDPWCovYeW.png" alt="Escudo con una flor sostenido por dos manos" /></div>
         </div>
         <div className="scroll-note"><span className="scroll-line" /> Desliza para descubrir</div>
       </section>
