@@ -79,8 +79,8 @@ export default function Page() {
 
       <section id="estrategias" className="initiative-section section-pad">
         <div className="initiative-heading">
-          <div><h2>Guardianas de<br /><i>la vida</i></h2><p>Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p></div>
-          <img className="initiative-emblem" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/C26E4CF0-FC19-4065-BC0B-09368D47AE8D-ZAjBLD46T9dCmNqDavmJmuKeAAjqS6.png" alt="Estudiante de Guardianas de la Vida con uniforme azul a cuadros" />
+          <div><h2>Guardianas de<br /><i>la vida</i></h2></div>
+          <img className="initiative-emblem" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Inicio-removebg-preview-73jbE1b5UUZUTLCEWxM5Yc1s0dDDxt.png" alt="Escudo con una flor sostenido por dos manos, símbolo de protección y crecimiento" />
         </div>
         <div className="strategy-cards">
           <article><div className="card-top"><span>01</span><Sparkles /></div><div className="strategy-image image-sensibilizar"><Sparkles /></div><h3>Cuidar</h3><p>Proteger nuestro bienestar</p></article>
