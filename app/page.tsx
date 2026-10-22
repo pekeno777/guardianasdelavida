@@ -80,7 +80,6 @@ export default function Page() {
       <section id="estrategias" className="initiative-section section-pad">
         <div className="initiative-heading">
           <div><h2>Guardianas de<br /><i>la vida</i></h2></div>
-          <p>Guardianas de la Vida busca promover el cuidado de la vida y el bienestar de la comunidad educativa mediante actividades de sensibilización, acompañamiento y reflexión.</p>
           <img className="initiative-emblem" src="/guardianas-emblema.png" alt="Escudo con una flor sostenido por dos manos, símbolo de protección y crecimiento" />
         </div>
         <div className="strategy-cards">
