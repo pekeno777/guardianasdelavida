@@ -69,7 +69,7 @@ export default function Page() {
           </div>
           <div className="story-image-wrap">
             <img
-              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&q=80"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/C26E4CF0-FC19-4065-BC0B-09368D47AE8D-ZAjBLD46T9dCmNqDavmJmuKeAAjqS6.png"
               alt="Estudiantes compartiendo y apoyándose mutuamente"
               className="story-side-img"
             />
@@ -80,7 +80,7 @@ export default function Page() {
       <section id="estrategias" className="initiative-section section-pad">
         <div className="initiative-heading">
           <div><h2>Guardianas de<br /><i>la vida</i></h2></div>
-          <img className="initiative-emblem" src="/guardianas-emblema.png" alt="Escudo con una flor sostenido por dos manos, símbolo de protección y crecimiento" />
+          <img className="initiative-emblem" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Inicio-removebg-preview-73jbE1b5UUZUTLCEWxM5Yc1s0dDDxt.png" alt="Escudo con una flor sostenido por dos manos, símbolo de protección y crecimiento" />
         </div>
         <div className="strategy-cards">
           <article><div className="card-top"><span>01</span><Sparkles /></div><div className="strategy-image image-sensibilizar"><Sparkles /></div><h3>Cuidar</h3><p>Proteger nuestro bienestar</p></article>
