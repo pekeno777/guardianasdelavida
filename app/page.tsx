@@ -91,7 +91,7 @@ export default function Page() {
 
       <section id="campana" className="evidence-section section-pad">
         <div className="section-kicker">03 / Campaña 360</div>
-        <div className="evidence-heading"><h2>Comunicar<br /><span>también es cuidar.</span></h2><p>Creamos una estrategia de comunicación integral utilizando herramientas digitales, contenido audiovisual y material gráfico para llegar a más estudiantes y fortalecer el mensaje de cuidado y apoyo.</p></div>
+        <div className="evidence-heading"><h2>Campaña 360<br /></h2><p>Creamos una estrategia de comunicación integral utilizando herramientas digitales, contenido audiovisual y material gráfico para llegar a más estudiantes y fortalecer el mensaje de cuidado y apoyo.</p></div>
       </section>
 
       {/* ── SECCIÓN: EVIDENCIAS ── */}
