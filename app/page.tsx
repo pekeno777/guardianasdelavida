@@ -50,7 +50,6 @@ export default function Page() {
           <p className="hero-lede">Una iniciativa para cuidar, escuchar y acompañar a nuestra comunidad educativa.</p>
           <div className="hero-actions">
             <a className="primary-button" href="#proyecto">Conoce el proyecto <ArrowDown size={17} /></a>
-            <button className="play-link" onClick={() => setVideoOpen(true)}><span className="play-icon"><Play size={14} fill="currentColor" /></span> Ver nuestro documental</button>
           </div>
         </div>
         <div className="hero-art hero-photo" aria-label="Tres estudiantes abrazadas y unidas en el patio escolar" role="img">
